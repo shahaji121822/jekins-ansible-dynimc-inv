@@ -4,7 +4,7 @@ provider "aws"{
    secret_key = "BYYwuudEXnxqIkifFLzAuyFTlD+UBCXcedal2UrL"
 }
 
-resource "aws_instance" "AWSEC2Instance"{
+resource "AWSEC2Instance"{
      count   = 1
      ami = "ami-0f9d9a251c1a44858"
      instance_type = "t2.micro"
